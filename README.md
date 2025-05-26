@@ -8,3 +8,4 @@ npm install @vitejs/plugin-legacy\
 
 2. 部署到github\
 详细见：https://juejin.cn/post/7287914031514419259
+https://www.jianshu.com/p/1dabc3f7d6d0 (实际用)
