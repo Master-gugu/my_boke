@@ -12,5 +12,5 @@ export default defineConfig({
       additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
     })
   ],
-  base: './',
+  base: '/my_boke/',
 })

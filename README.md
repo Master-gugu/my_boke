@@ -5,3 +5,6 @@
 项目安装：@vitejs/plugin-legacy
 npm install @vitejs/plugin-legacy\
 具体配置详见：https://blog.csdn.net/baoyin0822/article/details/141609137
+
+2. 部署到github\
+详细见：https://juejin.cn/post/7287914031514419259
