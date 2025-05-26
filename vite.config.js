@@ -13,4 +13,8 @@ export default defineConfig({
     })
   ],
   base: '/my_boke/',
+  // base: './',
+  build: {
+    outDir: 'docs',
+  }
 })
