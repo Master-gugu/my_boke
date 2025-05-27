@@ -12,6 +12,11 @@ export default defineConfig({
       additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
     })
   ],
+  resolve: {
+    alias: {
+      '@': '/src',
+    }
+  },
   base: '/my_boke/',
   // base: './',
   build: {
