@@ -8,7 +8,8 @@
   <br/>
   <RouterLink to="/about?id=2">Go to About</RouterLink>
   <br/>
-  <button @click="toPath">按钮1</button>
+  <button @click="toPath('/', 111)">按钮1</button>
+  <button @click="toPath('/about', 222)">按钮2</button>
 
   <router-view />
 </template>
@@ -17,11 +18,11 @@
 import { useRouter } from 'vue-router';
 const router = useRouter();
 console.dir(router);
-const toPath = () => {
+const toPath = (path, id) => {
   router.push({
-    path: '/about', 
+    path: path, 
     query: {
-      id: 666
+      id: id
     },
   })
 }
