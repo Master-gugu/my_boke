@@ -9,3 +9,13 @@ npm install @vitejs/plugin-legacy\
 2. 部署到github\
 详细见：https://juejin.cn/post/7287914031514419259
 https://www.jianshu.com/p/1dabc3f7d6d0 (实际用)
+
+3. 转TS
+将.js文件改成.ts文件\
+创建 tsconfig.json 文件 并配置\
+创建 src/shims-vue.d.ts 文件 并配置\
+安装插件：npm install -D @types/node\
+安装插件：npm install -D @vue/tsconfig\
+安装插件：npm install -D typescript\
+安装插件：npm install -D vue-tsc\
+更改："build": "vue-tsc -b && vite build"

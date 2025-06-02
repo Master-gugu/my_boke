@@ -19,7 +19,7 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
     }
   },
-  base: '/my_boke/',
+  base: './',
   // base: './',
   build: {
     outDir: 'docs',
