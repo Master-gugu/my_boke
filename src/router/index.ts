@@ -7,6 +7,7 @@ const routes = [
     { path: '/about', name: 'about', component: about }
 ]
 
+
 const router = createRouter({
     history: createWebHashHistory(),
     routes,

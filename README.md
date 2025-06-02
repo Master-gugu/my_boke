@@ -19,3 +19,6 @@ https://www.jianshu.com/p/1dabc3f7d6d0 (实际用)
 安装插件：npm install -D typescript\
 安装插件：npm install -D vue-tsc\
 更改："build": "vue-tsc -b && vite build"
+
+3. 安装scss
+npm install sass sass-loader --save-dev --registry=https://registry.npmmirror.com
